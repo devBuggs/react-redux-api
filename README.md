@@ -46,4 +46,37 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## NOTE
 
-This repo includes redux lib.
+This development package has React with Redux-Toolkit and Axios-https and intercepter
+Please refer to src/package.json for more info about package used.
+
+Project File Structure
+
+ root/
+  |
+  |
+  |----public
+  |
+  |----src 
+  |     |---- api
+        |      |---- api.js
+        |      |---- apiConfig.js
+        |
+        |---- components
+        |       |---- MainComponent.jsx
+        |
+        |---- redux
+        |       |---- reducers
+        |       |        |---- appSlice.js
+        |       |
+        |       |---- storeConfig
+        |       |        |---- store.js
+        |       |---- RootReducer.js
+        |
+        |---- App.css
+        |---- App.js
+        |---- App.test.js
+        |---- index.js
+        |---- index.css
+        |---- logo.svg
+        |---- serviceWorker.js
+        |----setupTests.js
